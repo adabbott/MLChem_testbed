@@ -22,7 +22,7 @@ data = pd.read_csv("PES.dat")
 x1 = data.iloc[:, 0].values
 x2 = data.iloc[:, 1].values
 x3 = data.iloc[:, 2].values
-y = data.iloc[:, 1].values
+y = data.iloc[:, 3].values
 
 scaler = MinMaxScaler(feature_range=(-1,1))
 x1 = scaler.fit_transform((x1).reshape(-1,1)) 
@@ -39,11 +39,12 @@ in_dim = X_train.shape[1]
 out_dim = y_train.shape[1]
 valid_set = tuple([X_valid, y_valid])
 
+
 # train a fresh model 50 times. Save the best one.
 models = []
 MAE = []
 RMSE = []
-for i in range(1):
+for i in range(10):
     model = Sequential([
     Dense(units=10, input_shape=(3,), activation='softsign'),
     Dense(units=10, activation='softsign'),
