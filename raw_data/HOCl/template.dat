@@ -1,0 +1,10 @@
+# template file for PyPES-lib
+
+COMMENT   "Evaluates the energy at geometry using the specified PES"
+MOLECULE   HOCl
+PESN         1
+DLVL_CART    0
+CARTESIAN ANGSTROM
+H   0.000000000000     0.000000000000    -0.600019511914 
+O   0.000000000000     0.000000000000     0.607520488086
+Cl   0.000000000000    -0.869764733242     1.144551352012
