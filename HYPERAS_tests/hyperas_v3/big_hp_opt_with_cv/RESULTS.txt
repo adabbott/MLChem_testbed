@@ -1,0 +1,6 @@
+Best performing model hyperparameters:
+[('Activation', 2), ('Activation_1', 1), ('Activation_2', 0), ('Activation_3', 2), ('Activation_4', 0), ('Activation_5', 0), ('Activation_6', 1), ('Activation_7', 1), ('Dense', 0), ('Dense_1', 0), ('Dense_2', 0), ('Dense_3', 2), ('Dense_4', 1), ('optimizer', 0)]
+
+Model Results (units- Hartree):
+Full dataset RMSE: 7.100604482791026e-07
+Full dataset MAE: 0.0006789425325298027
