@@ -1,0 +1,2 @@
+Best performing model hyperparameters:
+[('Activation', 'tanh'), ('Activation_1', 'sigmoid'), ('Activation_2', 'three'), ('Activation_3', 'tanh'), ('Activation_4', 'four'), ('Activation_5', 'sigmoid'), ('Dense', 100), ('Dense_1', 50), ('Dense_2', 50), ('Dense_3', 100)]
