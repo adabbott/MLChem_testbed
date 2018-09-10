@@ -1,0 +1,2 @@
+Best performing model hyperparameters:
+[('decay', 1e-05), ('lr', 0.0346776247827886)]
